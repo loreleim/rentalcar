@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ce7689efd012261c94141eb437000aa",
+    "revision": "68acaaffa15ad4c1d45a797e3ba3011a",
     "url": "/rentalcar/index.html"
   },
   {
-    "revision": "b22dbb4b33fba89d49aa",
+    "revision": "75f60a586baed51c4df5",
     "url": "/rentalcar/static/css/main.2e11ad53.chunk.css"
   },
   {
-    "revision": "99cd59adce6885179d38",
-    "url": "/rentalcar/static/js/2.202ee26b.chunk.js"
+    "revision": "d2eda7e672a4fcb04753",
+    "url": "/rentalcar/static/js/2.234e54dc.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/rentalcar/static/js/2.202ee26b.chunk.js.LICENSE.txt"
+    "url": "/rentalcar/static/js/2.234e54dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b22dbb4b33fba89d49aa",
-    "url": "/rentalcar/static/js/main.7fb67561.chunk.js"
+    "revision": "75f60a586baed51c4df5",
+    "url": "/rentalcar/static/js/main.6c3f84f1.chunk.js"
   },
   {
     "revision": "d7890d10a18abaa236dc",
