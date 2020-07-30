@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import style from "./index.module.scss";
+import store from "../../database";
 
 class Home extends Component {
   constructor() {
     super();
     this.state = {
       cars: ["suv", "chicken", "something"],
+      airports: ["HNL", "KHL"],
       searchItem: "",
       showError: false,
     };
@@ -49,10 +51,15 @@ class Home extends Component {
                 autoComplete="off"
                 onChange={this.handleChange}
               />
-              <label>Search Item</label>
+              <label>Pickup Location</label>
               <button type="submit">Submit</button>
             </form>
             {searchItem}
+            {/*{store.appData.Airports.map((Airports) => (
+              <div key={Airports.name} className={style.projectCard}>
+                <h4>{Airports.name}</h4>
+              </div>
+            ))} */}
             {/*<div className={style.suggestionsContainer}>
               {cars.map((items) => (
                 <li key={items}>{items}</li>

@@ -18,6 +18,17 @@
 .heroItems form {
   width: 70vw;
   margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.heroItems input,
+button,
+label {
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
 }
 
 .heroItems input {
@@ -28,21 +39,24 @@
   outline: none;
   border: 2px white;
   margin-top: 1rem;
+  position: relative;
 }
 
 .heroItems label {
   width: 100%;
   position: absolute;
-  padding-left: 1rem;
-  transform: translateY(1.5rem);
-  font-size: 2rem;
+  transform: translateY(1.85rem);
+  font-size: 1rem;
   left: 0;
+  color: $primary;
+  user-select: none;
+  pointer-events: none;
 }
 
 .heroItems input:focus + label,
 .heroItems input:valid + label {
   transition: 0.2s;
-  transform: translateY(-1.5rem);
+  transform: translateY(-0.75rem);
   color: $primary;
 }
 
@@ -94,6 +108,9 @@
   .heroItems button {
     display: inline-block;
     margin-left: 1rem;
+  }
+  .heroItems label {
+    transform: translateY(3.5rem);
   }
 }
 

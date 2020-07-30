@@ -13,3 +13,11 @@ h1 {
   font-style: normal;
   color: $primary;
 }
+
+p,
+label {
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
