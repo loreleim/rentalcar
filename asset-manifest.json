@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rentalcar/static/css/main.2e11ad53.chunk.css",
+    "main.js": "/rentalcar/static/js/main.7fb67561.chunk.js",
+    "main.js.map": "/rentalcar/static/js/main.7fb67561.chunk.js.map",
+    "runtime-main.js": "/rentalcar/static/js/runtime-main.bde2cb38.js",
+    "runtime-main.js.map": "/rentalcar/static/js/runtime-main.bde2cb38.js.map",
+    "static/js/2.202ee26b.chunk.js": "/rentalcar/static/js/2.202ee26b.chunk.js",
+    "static/js/2.202ee26b.chunk.js.map": "/rentalcar/static/js/2.202ee26b.chunk.js.map",
+    "index.html": "/rentalcar/index.html",
+    "precache-manifest.859f5ae6f331392f33f5847df21c9b9c.js": "/rentalcar/precache-manifest.859f5ae6f331392f33f5847df21c9b9c.js",
+    "service-worker.js": "/rentalcar/service-worker.js",
+    "static/css/main.2e11ad53.chunk.css.map": "/rentalcar/static/css/main.2e11ad53.chunk.css.map",
+    "static/js/2.202ee26b.chunk.js.LICENSE.txt": "/rentalcar/static/js/2.202ee26b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bde2cb38.js",
+    "static/js/2.202ee26b.chunk.js",
+    "static/css/main.2e11ad53.chunk.css",
+    "static/js/main.7fb67561.chunk.js"
+  ]
+}
