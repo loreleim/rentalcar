@@ -1,0 +1,106 @@
+@import "../../style/variables.scss";
+
+.heroContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: $secondary;
+}
+
+.heroItems {
+  position: relative;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.heroItems form {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.heroItems input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 3rem;
+  padding-left: 1rem;
+  outline: none;
+  border: 2px white;
+  margin-top: 1rem;
+}
+
+.heroItems label {
+  width: 100%;
+  position: absolute;
+  padding-left: 1rem;
+  transform: translateY(1.5rem);
+  font-size: 2rem;
+  left: 0;
+}
+
+.heroItems input:focus + label,
+.heroItems input:valid + label {
+  transition: 0.2s;
+  transform: translateY(-1.5rem);
+  color: $primary;
+}
+
+.heroItems button {
+  margin: 0 auto;
+  display: block;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 3rem;
+  padding: 0.25rem;
+  color: white;
+  background-color: $primary;
+  border: none;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.heroItems button:hover {
+  transition: 0.2s ease-in-out;
+  background-color: darken($primary, 20);
+}
+
+.suggestionsContainer {
+  margin: 0 auto;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  background-color: white;
+  padding: 1rem;
+  width: 70vw;
+  text-align: left;
+  list-style: none;
+  transform: translateY(-0.25vh);
+}
+/*Media Queries*/
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .heroItems {
+    font-size: 5rem;
+  }
+  .heroItems button {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
+
+/* For TV Screens & Projectors */
+@media (min-width: 2000px) {
+}
